@@ -1,7 +1,18 @@
-
+import Header from "./components/Header";
+import MainContent from "./components/MainContent";
+import BlueBar from "./components/BlueBar";
+import Footer from "./components/Footer";
+import "./index.css";
 
 function App() {
-  return <h1>hello world</h1>
+  return (
+    <>
+      <Header />
+      <MainContent />
+      <BlueBar />
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;

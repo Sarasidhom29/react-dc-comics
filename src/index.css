@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  background: white;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.header__container,
+.main-content__container,
+.blue-bar__container,
+.footer__container,
+.footer-bottom__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 70px;
+}
+
+.header__list {
+  display: flex;
+  gap: 28px;
+}
+
+.header__link {
+  font-size: 12px;
+  font-weight: 700;
+  color: #333;
+}
+
+.main-content {
+  background: #1c1c1c;
+  color: white;
+  padding: 60px 0;
+}
+
+.main-content__text {
+  font-size: 24px;
+}
+
+.blue-bar {
+  background: #0282f9;
+  padding: 40px 0;
+}
+
+.blue-bar__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.blue-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: white;
+}
+
+.blue-item__icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.blue-item__label {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.footer {
+  background: #2c2c2c;
+}
+
+.footer__top {
+  background-image: url("/src/assets/footer-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  position: relative;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__columns {
+  display: flex;
+  gap: 50px;
+}
+
+.footer-column__title {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer-column__item {
+  margin-bottom: 8px;
+}
+
+.footer-column__link {
+  color: #b0b0b0;
+  font-size: 14px;
+}
+
+.footer__logo {
+  width: 500px;
+  opacity: 0.25;
+}
+
+.footer-bottom {
+  background: #333;
+  padding: 25px 0;
+}
+
+.footer-bottom__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom__button {
+  padding: 12px 20px;
+  background: transparent;
+  border: 2px solid #0282f9;
+  color: white;
+  font-weight: 700;
+}
+
+.footer-bottom__social {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #0282f9;
+  font-weight: 700;
+}
