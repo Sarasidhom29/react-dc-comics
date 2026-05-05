@@ -2,7 +2,7 @@ import linkNavigazioneHeader from "./info/headerLinks.js";
 import comics from "./info/comics.js";
 import ActionElem from "./info/actionElem.js";
 import dcLinksFooter from "./info/footerLinks.js";
-import socialLinks from "./info/socialLink.js";
+import socialLinks from "./info/socialLinks.js";
 
 import Footer from "./components/Footer.jsx";
 import Header from "./components/Header.jsx";

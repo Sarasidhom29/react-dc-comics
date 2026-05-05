@@ -1,4 +1,4 @@
-import MainCardContainer from "./MainCardContainer";
+import MainCardContainer from "./CardContainer";
 import ActionNavbar from "./ActionNavbar";
 
 

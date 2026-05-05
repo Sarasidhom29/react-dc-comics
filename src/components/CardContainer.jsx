@@ -1,6 +1,6 @@
 import Card from "./Card";
 
-function MainCardContainer(props) {
+function CardContainer(props) {
     console.log(props.comicsList);
     return (
         <section id="card-container">
@@ -9,4 +9,4 @@ function MainCardContainer(props) {
     )
 };
 
-export default MainCardContainer;
+export default CardContainer;
