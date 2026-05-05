@@ -1,18 +1,22 @@
-import Header from "./components/Header";
-import MainContent from "./components/MainContent";
-import BlueBar from "./components/BlueBar";
-import Footer from "./components/Footer";
-import "./index.css";
+import linkNavigazioneHeader from "./info/headerLinks.js";
+import comics from "./info/comics.js";
+import ActionElem from "./info/actionElem.js";
+import dcLinksFooter from "./info/footerLinks.js";
+import socialLinks from "./info/socialLink.js";
+
+import Footer from "./components/Footer.jsx";
+import Header from "./components/Header.jsx";
+import Main from "./components/Main.jsx";
+
 
 function App() {
-  return (
-    <>
-      <Header />
-      <MainContent />
-      <BlueBar />
-      <Footer />
-    </>
-  );
+
+  return <>
+    <Header links={linkNavigazioneHeader} />
+    <Main comicsListObj={comics} actionListLinks={ActionElem} />
+    <Footer footerLinkList={dcLinksFooter} socialLinkList={socialLinks} />
+  </>
+
 }
 
-export default App;
+export default App
