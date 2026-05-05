@@ -1,4 +1,4 @@
-import ImgList from "/ImgList.jsx";
+import ImgList from "./ImgList.jsx";
 
 
 function FooterSocialBar(props) {

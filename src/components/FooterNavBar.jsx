@@ -1,4 +1,4 @@
-import LinkList from "/LinkList.jsx";
+import LinkList from "./LinkList.jsx";
 
 
 function FooterNavBar(props) {
